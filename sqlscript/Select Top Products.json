@@ -1,5 +1,5 @@
 {
-	"name": "SQL script 3",
+	"name": "Select Top Products",
 	"properties": {
 		"content": {
 			"query": "SELECT TOP (100) [ProductKey]\n,[ProductAltKey]\n,[ProductName]\n,[Color]\n,[Size]\n,[ListPrice]\n,[Discontinued]\n FROM [dbo].[DimProduct]",
