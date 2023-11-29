@@ -35,7 +35,7 @@
 					"%%pyspark\r\n",
 					"df = spark.read.load('abfss://files@datalakeyoq1t5h.dfs.core.windows.net/data/Product.csv', format='csv'\r\n",
 					"## If header exists uncomment line below\r\n",
-					"##, header=True\r\n",
+					", header=True\r\n",
 					")\r\n",
 					"display(df.limit(10))"
 				],
